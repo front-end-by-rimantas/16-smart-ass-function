@@ -17,7 +17,7 @@ function text() {
     // var symbols = 'var ';
     var symbols = '123456789+';
 
-    for ( var i=0; i<5; i++ ) {
+    for ( var i=0; i<6; i++ ) {
         text += symbols[ Math.floor(Math.random() * symbols.length) ];
     }
 
